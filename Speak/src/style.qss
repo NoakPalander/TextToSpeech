@@ -1,0 +1,53 @@
+QMainWindow {
+    background-color: #001f3f;
+}
+
+QTextEdit {
+    background-color: silver;
+    border: 1px solid silver;
+}
+
+QFrame[accessibleName="container"] {
+    background-color: silver;
+}
+
+QLabel[accessibleName="volumeLabel"] {
+    color: #001f3f;
+    background-color: silver;
+    font-weight: bold;
+}
+
+QLabel[accessibleName="voiceSpeedLabel"] {
+    color: #001f3f;
+    background-color: silver;
+    font-weight: bold;
+}
+
+QLabel[accessibleName="genderLabel"] {
+    color: #001f3f;
+    background-color: silver;
+    font-weight: bold;
+}
+
+
+QSlider::groove:horizontal {
+    background-color: #DDDDDD;
+}
+
+QSlider::handle:horizontal {
+    background-color: #001f3f;
+    height: 16px;
+    width: 10px;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: #AAAAAA;
+}
+
+QCheckBox {
+    background-color: silver;
+}
+
+QPushButton {
+    background-color: silver;
+}
