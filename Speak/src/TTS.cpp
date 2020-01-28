@@ -47,11 +47,7 @@ void TTS::ToggleMale(const std::function<void(void)>& callback /*=nullptr*/) {
 void TTS::ToggleFemale(const std::function<void(void)>& callback /*=nullptr*/) {
     if (callback != nullptr)
         callback();
-
-    /*if (this->ui->maleBox->isChecked())
-        this->ui->maleBox->setChecked(false);
-
-    this->ui->femaleBox->setChecked(true);*/
+    
     ChangeGender(Gender::Female);
 }
 
